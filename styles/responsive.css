@@ -1,0 +1,335 @@
+@media screen and (max-width: 576px) {
+
+    html,body {
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        }
+
+    html{
+        width: 100vw;
+        overflow-x: hidden;
+      }
+
+    .header{
+        min-height: 110vh;
+    }
+    input,textarea{
+        width:100%
+    }
+
+    .text-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+    }
+
+    .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer{
+        top: 84%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ads{
+        text-align: center;
+    }
+
+    .contacts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .telephone, .mail{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border-left: none;
+    }.mail{
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    .sukseset{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .rrjeshti-pare{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .first-stat-item-box{
+        width: 100%;
+    }
+
+    .second-stat-item-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-md-column{
+        flex-direction: column;
+    }
+
+    .rrjeshti-dyte{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .third-stat-item-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .vite{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .forth-stat-item-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .strategjia_qa{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .strategjia-banner{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .strategjia-text{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hapi{
+        left: 19px;
+    }
+    .strategjia{
+        margin-bottom: 1rem;
+    }
+
+    .pyetjet-container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section{
+        box-sizing: border-box;
+    }
+
+    .filloni{
+        align-self: center !important;
+    }
+
+    .card-default{
+        width: 90%;
+    }
+
+    .deshmi-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .deshmi-text{
+        flex-wrap: wrap;
+    }
+
+    .deshmi-image{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .deshmi-blockquote{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    blockquote{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .blockquote-p{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .konsulenca{
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .looking-for{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .kontaktet-konsulence{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .d-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .photo-blogu{ 
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .photo-blogu img{
+        width: 23rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mundsi-globale{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .interactions{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        line-height: 2rem;
+    }
+
+    .kontakt{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-container{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .blogu-container{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .telefono{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact-title{
+        width: 100%;
+        text-align: center;
+    }
+
+    .posta{
+        width: 100%;
+        text-align: center;
+    }
+
+    .media-sociale ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulli{
+        letter-spacing: 1px;
+    }
+    img{
+        width: 10rem;
+    }
+    .w-33{
+        width: 100%;
+    }
+    .kolona{
+        padding: 0%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .ekipi-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .photos{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1140px){
+    .blockquote-down{
+        position: absolute;
+        right: 4%;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px){
+    strong{
+        font-size: 2.5rem;
+    }
+    .w-33{
+        width: 50%;
+    }
+    .photo-blogu img {
+        width: 16rem;
+    }
+}
+
+@media only screen and (min-width: 1144px){
+    #menu, #menu-content{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1143px){
+    .nav-links{
+        visibility: hidden;
+    }
+}
